@@ -1,0 +1,56 @@
+body {
+    background: #3A0900;
+    font-family: 'Sansita Swashed', cursive;
+  }
+  
+  .m-heading {
+    font-family: 'Roboto Slab', serif;
+    animation-name: example;
+  animation-duration: 2s;
+  }
+  @keyframes example {
+    from {background-color:#ff9f22;}
+    to {background-color: transparent;}
+  }
+  .navigation-link {
+    border: 3px solid transparent;
+}
+ .navigation-link:hover {
+   border: 2px solid #ff9f22;
+   transition: 1s ease;
+ }
+ .main-container {
+   min-height: 100vh;
+   padding-top: 2rem;
+ }
+ .main-row {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+  .main-row h1 {
+    font-size: 4rem;
+  }
+  figure:hover {
+    border: 2px solid #ff9f22;
+transition: 0,5s ease;
+
+  }
+  #about {
+    background: #1b0b09;
+    border-radius: 0.5rem;
+  }
+  #social-media {
+    background: #1b0b09;
+  }
+  .media_link {
+    padding:1rem ;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #ff9f22;
+    border-radius: 0.5rem;
+  }
+  .fa-3x {
+    color: white;
+  }
+  
